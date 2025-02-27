@@ -1,0 +1,36 @@
+name: habit_tracker_app
+description: "A habit tracking application to help users adopt new habits."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # State management and dependency injection
+  flutter_riverpod: ^2.5.1
+  # Navigation
+  go_router: ^13.2.1
+  # Local storage
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  # HTTP client
+  dio: ^5.4.1
+  # UI utilities
+  flutter_svg: ^2.0.10+1
+  intl: ^0.19.0
+  # For unique IDs
+  uuid: ^4.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
